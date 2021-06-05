@@ -1,0 +1,43 @@
+.postPaginationContainer {
+  width: 700px;
+  min-height: 108px;
+  margin-top: 50px;
+
+  h1 {
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    font-weight: 700;
+    color: var(--heading)
+  };
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    color: var(--body);
+    margin-top: 8px
+  }
+}
+
+.postDateAndAuthor {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+
+  div {
+    display: flex;
+    align-items: center;
+    color: var(--info);
+    font-size: 1.25rem;
+    line-height: 1.125rem;
+
+    span {
+      margin-left: 12px;
+      font-size: 0.875rem;
+    }
+  }
+
+  div:nth-child(2) {
+    margin-left: 28px;
+  }
+}

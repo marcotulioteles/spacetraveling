@@ -1,1 +1,11 @@
-// TODO
+.headerContainer {
+  height: 105px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContent {
+  width: 700px;
+}
